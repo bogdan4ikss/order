@@ -1,0 +1,126 @@
+.navbar__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3DB2C2;
+    height: 70px;
+    z-index: 300;
+}
+
+.filters {
+    display: flex;
+}
+
+.DropdownButton {
+    background-color: #B0E0E6;
+    width: 168px;
+    font-weight: 600;
+    color: #26838F;
+    border-color: #B0E0E6;
+    margin-left: 20px;
+}
+
+.DropdownButton:hover {
+    background-color: #26838F;
+    width: 168px;
+    font-weight: 600;
+    color: #B0E0E6;
+    border-color: #26838F;
+    margin-left: 20px;
+}
+
+.search__container {
+    display: flex;
+    width: 100%;
+    margin-right: 20px;
+    margin-left: 20px;
+    float: right;
+}
+
+.NavTools__container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.form_control::placeholder {
+    color: #02A0D2;
+    font-weight: 600;
+}
+
+
+.ClearButton {
+    width: 36px;
+    height: 36px;
+    background-color: #02A0D2;
+    border-radius: 5px;
+    border: none;
+    margin-left: 8px;
+    padding-left: 12px;
+    padding-right: 11px;
+    padding-bottom: 5px;
+}
+
+.navbar-toggler {
+    margin-left: 10px;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='azure' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler {
+    border: 2px solid azure;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+@media screen and (max-width: 1199px) {
+
+    .filters {
+        margin-top: 20px;
+        padding-bottom: -20px;
+    }
+
+
+    .DropdownButton {
+        width: 100vw;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .DropdownButton:hover {
+        width: 100vw;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .navbar-toggler_menu {
+        margin: -2px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .navbar-menu_span {
+        font-weight: bold;
+        color: white;
+    }
+
+    .search__container {
+        background-color: #B0E0E6;
+        width: 100%;
+        margin-right: 0;
+        padding-left: 8px;
+        padding-bottom: 10px;
+    }
+
+    .ClearButton {
+        margin-right: 8px;
+    }
+
+    .NavTools__container {
+        display: block;
+    }
+}

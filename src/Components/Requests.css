@@ -1,0 +1,17 @@
+.request__container {
+    display: flex;
+}
+
+.ClientList_container {
+    width: 60%;
+    min-height: 150px;
+    background: #ccc;
+    float: left;
+}
+
+.LastChat_container {
+    width: 30%;
+    min-height: 150px;
+    background: #c00;
+    float: right;
+}
