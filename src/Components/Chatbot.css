@@ -16,19 +16,43 @@
     width: 100%;
 }
 
+.img_chattools {
+    filter: brightness(100%) contrast(18%) saturate(20%);
+}
+
+.img_chattools:hover {
+    filter: brightness(10%) contrast(18%) saturate(20%) !important;
+    bottom: 0;
+}
+
 .ChatBotButtonSend {
     margin-top: 37px;
     padding-left: 9px;
     padding-right: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .message_content_chatbot {
-    margin-top: 37px;
+    margin-top: 5px;
     margin-right: 0px;
+    max-width: 350px;
     padding: 10px;
     border-radius: 25px;
-    color: #02A0D2;
-    background-color: #CFF4FF;
+    color: #33384B;
+    background-color: #A2B7CA;
+}
+
+@media only screen and (max-width: 450px) {
+    .message_content_chatbot {
+        max-width: 250px;
+    }
+
+    .ChatBotButtonSend {
+        padding-left: 1px;
+        padding-right: 1px;
+    }
 }
 
 @media only screen and (max-width: 1454px) {
@@ -43,4 +67,14 @@
     height: auto;
     border-radius: 5px;
     object-fit: cover;
+}
+
+.send_button_message_chatbot {
+    display: flex;
+}
+
+.next_life__chatbot {
+    width: 100%;
+    height: 100px;
+    background-color: #CFA63C;
 }

@@ -5,7 +5,8 @@
     overflow-y: auto;
     display: flex;
     flex-direction: column;
-    background-color: #BDBDBD;
+    background-color:
+        #F4F4F4;
 }
 
 .Button__Back {
@@ -53,7 +54,7 @@
     margin-left: 43px;
     border-radius: 25px;
     color: #ffffff;
-    background-color: #02A0D2;
+    background-color: #33384B;
 }
 
 .message_contento {
@@ -61,8 +62,8 @@
     margin-right: 43px;
     padding: 10px;
     border-radius: 25px;
-    color: #02A0D2;
-    background-color: #CFF4FF;
+    color: #33384B;
+    background-color: #A2B7CA;
 }
 
 .sender {
@@ -84,7 +85,7 @@
 .timestampo {
     font-size: 12px;
     font-weight: bold;
-    color: #02A0D2;
+    color: #33384B;
 }
 
 .timestampc {
@@ -130,6 +131,6 @@
         font-weight: bold;
         border-radius: 5px;
         left: 10px;
-        background-color: #1acaff;
+        background-color: #CFA63C;
     }
 }

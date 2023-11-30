@@ -9,20 +9,20 @@ export default function Menu() {
                 </button>
                 <div class="navbar-toggler_menu collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav-menu navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link-menu nav-link" href="#">Главная</a>
+                        <li class="menu__buttonbgc_active nav-item">
+                            <a class="nav-link-menu_active nav-link" href="#">ГЛАВНАЯ</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link-menu nav-link" href="#">Запрос</a>
+                        <li class="menu__buttonbgc nav-item">
+                            <a class="nav-link-menu nav-link" href="#">ЗАПРОС</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link-menu nav-link" href="#">Входящие</a>
+                        <li class="menu__buttonbgc nav-item">
+                            <a class="nav-link-menu nav-link" href="#">ВХОДЯЩИЕ</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link-menu nav-link" href="#">Клиенты</a>
+                        <li class="menu__buttonbgc nav-item">
+                            <a class="nav-link-menu nav-link" href="#">КЛИЕНТЫ</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link-menu nav-link" href="#">Склад</a>
+                        <li class="menu__buttonbgc nav-item">
+                            <a class="nav-link-menu nav-link" href="#">СКЛАД</a>
                         </li>
                     </ul>
                 </div>

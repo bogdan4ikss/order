@@ -1,17 +1,19 @@
 .menu__container {
-    background-color: #02A0D2 !important;
+    background-color: #33384B !important;
 }
 
 .nav-link-menu {
-    color: aliceblue;
+    color: white;
     font-weight: 600;
     font-size: 20px;
     letter-spacing: 7%;
 }
 
-.navbar-nav-menu {
-    margin-left: 20px;
-    gap: 20px;
+.nav-link-menu_active {
+    color: #33384B;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 7%;
 }
 
 .nav-link-menu:hover {
@@ -20,4 +22,65 @@
 
 .nav-link-menu:active {
     color: #B0E0E6;
+}
+
+.menu__buttonbgc_active {
+    background-color: #CFA63C;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.menu__buttonbgc {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+@media screen and (max-width: 1199px) {
+    .menu__buttonbgc_active {
+        background-color: #CFA63C;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        margin-top: -12px;
+        margin-bottom: -13px;
+    }
+
+    .menu__buttonbgc {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        margin-top: -12px;
+        margin-bottom: -13px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .menu__buttonbgc_active {
+        background-color: #CFA63C;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        margin-top: 0px !important;
+        margin-bottom: 0;
+    }
+
+    .menu__buttonbgc {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        margin-top: 0px !important;
+        margin-bottom: 0;
+    }
 }

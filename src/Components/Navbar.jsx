@@ -1,5 +1,5 @@
 import NavbarStyles from './Navbar.css'
-import Clear from '../Clear.svg'
+import Search from '../Search.svg'
 
 export default function Requests() {
 
@@ -15,7 +15,7 @@ export default function Requests() {
                             <li class="nav-item">
                                 <div class="dropdown">
                                     <button class="DropdownButton btn btn-secondary dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        MARKA
+                                        МАРКА
                                     </button>
                                     <ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="#/">Action</a></li>
@@ -27,7 +27,7 @@ export default function Requests() {
                             <li class="nav-item">
                                 <div class="dropdown">
                                     <button class="DropdownButton btn btn-secondary dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        MODEL
+                                        МОДЕЛЬ
                                     </button>
                                     <ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="#/">Action</a></li>
@@ -39,7 +39,7 @@ export default function Requests() {
                             <li class="nav-item">
                                 <div class="dropdown">
                                     <button class="DropdownButton btn btn-secondary dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        TYPE
+                                        ТИП
                                     </button>
                                     <ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="#/">Action</a></li>
@@ -51,7 +51,7 @@ export default function Requests() {
                             <li class="nav-item">
                                 <div class="dropdown">
                                     <button class="DropdownButton btn btn-secondary dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        SHOP
+                                        ИСТОЧНИК
                                     </button>
                                     <ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="#/">Action</a></li>
@@ -63,7 +63,19 @@ export default function Requests() {
                             <li class="nav-item">
                                 <div class="dropdown">
                                     <button class="DropdownButton btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        SOURCE
+                                        МАГАЗИН
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#/">Action</a></li>
+                                        <li><a class="dropdown-item" href="#/">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#/">Something else here</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <div class="dropdown">
+                                    <button class="DropdownButton btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        СЧЁТ
                                     </button>
                                     <ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="#/">Action</a></li>
@@ -78,7 +90,7 @@ export default function Requests() {
                         <div class="input-group flex-nowrap w-100">
                             <input type="text" class="form-control" placeholder="Поиск..." aria-describedby="addon-wrapping" />
                         </div>
-                        <button class="ClearButton"><img src={Clear} alt="" /></button>
+                        <button class="ClearButton"><img src={Search} alt="" /></button>
                     </div>
                 </div>
             </div>

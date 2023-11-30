@@ -2,8 +2,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #3DB2C2;
+    background-color: #627079;
+    position: absolute;
     height: 70px;
+    width: 100vw;
     z-index: 300;
 }
 
@@ -12,20 +14,20 @@
 }
 
 .DropdownButton {
-    background-color: #B0E0E6;
+    background-color: #ffffff;
     width: 168px;
     font-weight: 600;
-    color: #26838F;
-    border-color: #B0E0E6;
+    color: #33384B;
+    border-color: #ffffff;
     margin-left: 20px;
 }
 
 .DropdownButton:hover {
-    background-color: #26838F;
+    background-color: #6a7290;
     width: 168px;
     font-weight: 600;
-    color: #B0E0E6;
-    border-color: #26838F;
+    color: #ffffff;
+    border-color: #6a7290;
     margin-left: 20px;
 }
 
@@ -43,22 +45,17 @@
     width: 100%;
 }
 
-.form_control::placeholder {
-    color: #02A0D2;
-    font-weight: 600;
-}
-
 
 .ClearButton {
     width: 36px;
     height: 36px;
-    background-color: #02A0D2;
+    background-color: #33384B;
     border-radius: 5px;
     border: none;
-    margin-left: 8px;
-    padding-left: 12px;
+    margin-left: 5px;
+    padding-left: 6px;
     padding-right: 11px;
-    padding-bottom: 5px;
+    padding-bottom: 3px;
 }
 
 .navbar-toggler {
@@ -109,7 +106,7 @@
     }
 
     .search__container {
-        background-color: #B0E0E6;
+        background-color: #ffffff;
         width: 100%;
         margin-right: 0;
         padding-left: 8px;
