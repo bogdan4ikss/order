@@ -6,6 +6,7 @@ export default function Chatbot() {
     return (
         <div>
             <div className="ChatBot__container">
+                <div className="futurecont1"></div>
                 <div className="message my_message">
                     <div className="message_content_chatbot">
                         <span className="sender">Бот</span>

@@ -17,11 +17,11 @@
 }
 
 .nav-link-menu:hover {
-    color: #B0E0E6;
+    color: #CFA63C;
 }
 
 .nav-link-menu:active {
-    color: #B0E0E6;
+    color: #a28231;
 }
 
 .menu__buttonbgc_active {
@@ -41,6 +41,10 @@
     padding-bottom: 10px;
     margin-top: -10px;
     margin-bottom: -10px;
+}
+
+.menu__buttonbgc:hover {
+    background-color: #484e64;
 }
 
 @media screen and (max-width: 1199px) {
@@ -83,4 +87,14 @@
         margin-top: 0px !important;
         margin-bottom: 0;
     }
+}
+
+.notifications_circle {
+    display: inline;
+    padding: 1px 6px 2px 5px;
+    border-radius: 50px;
+    margin-left: 3px;
+    font-size: 12px;
+    height: 5px;
+    background-color: red;
 }

@@ -1,4 +1,5 @@
 import MenuStyles from './Menu.css'
+import notif from '../notif.svg'
 
 export default function Menu() {
     return (
@@ -23,6 +24,9 @@ export default function Menu() {
                         </li>
                         <li class="menu__buttonbgc nav-item">
                             <a class="nav-link-menu nav-link" href="#">СКЛАД</a>
+                        </li>
+                        <li class="notif menu__buttonbgc nav-item">
+                            <a class="nav-link-menu nav-link" href="#"><img src={notif} style={{ width: 20 }} alt="" /><div className='notifications_circle'>8</div></a>
                         </li>
                     </ul>
                 </div>

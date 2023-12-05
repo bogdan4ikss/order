@@ -6,7 +6,7 @@
 
 .Navbar_item0 {
     position: absolute;
-    width: 100vw;
+    width: 100%;
     padding-bottom: 50px;
 }
 
@@ -56,6 +56,9 @@
 @media screen and (max-width: 1199px) {
 
     #toggleList:checked~.item1 {
+        position: absolute;
+        height: 100%;
+        overflow: auto;
         display: block;
     }
 

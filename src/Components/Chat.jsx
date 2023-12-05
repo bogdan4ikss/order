@@ -3,6 +3,7 @@ import ChatStyles from './Chat.css'
 export default function Chat({ toggleListId, toggleBotId }) {
     return (
         <div className="Chat__container">
+            <div className="futurecont"></div>
             <div className="message">
                 <div className="message_contentc">
                     <span className="sender">Имя</span>
