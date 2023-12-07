@@ -26,7 +26,7 @@ export default function ChatManage() {
                                     <li><a class="dropdown-item" href="#">Something else here</a></li>
                                 </ul>
                             </div>
-                            <label htmlFor="#dropdown_cm" class="form-label-cm form-label">ТИП КЛИЕНТ</label>
+                            <label htmlFor="#dropdown_cm" class="form-label-cm form-label">СТАТУС СДЕЛКИ</label>
                             <div class="dropdown d-flex justify-content-center mb-4" id='dropdown_cm'>
                                 <button class="dropdown_chatmanage btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Выберите
@@ -49,12 +49,12 @@ export default function ChatManage() {
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h1 class="modal-title-cm modal-title mt-2 fs-5" id="staticBackdropLabel">Перевод на бота</h1>
+                            <h1 class="modal-title-cm modal-title mt-2 fs-5" id="staticBackdropLabel">Выставление счета</h1>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
                             <div class="mb-3">
-                                <label for="basic-url" class="form-label-cm form-label">Клиент ИНН</label>
+                                <label for="basic-url" class="form-label-cm form-label">ИНН</label>
                                 <div className="input_rename">
                                     <div class=" input-group">
                                         <input type="text" class="clientlist_modal__input form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4" />
@@ -72,7 +72,7 @@ export default function ChatManage() {
                                 </div>
                             </div>
                             <div class="mb-3">
-                                <label for="basic-url" class="form-label-cm form-label">Telephone</label>
+                                <label for="basic-url" class="form-label-cm form-label">Телефон</label>
                                 <div className="input_rename">
                                     <div class=" input-group">
                                         <input type="text" class="clientlist_modal__input form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4" />
@@ -81,9 +81,9 @@ export default function ChatManage() {
                                 </div>
                             </div>
                             <div class="mb-3">
-                                <label for="basic-url" class="form-label-cm form-label">EMAIL</label>
+                                <label for="basic-url" class="form-label-cm form-label">Почта</label>
                                 <div className="input_rename">
-                                    <div class="input_forrename input-group">
+                                    <div class=" input-group">
                                         <input type="text" class="clientlist_modal__input form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4" />
                                     </div>
                                     <img src={Rename} className='rename_icon_inn' alt="" />

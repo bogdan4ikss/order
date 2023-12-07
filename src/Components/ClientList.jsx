@@ -96,7 +96,7 @@ export default function ClientList({ toggleId }) {
                                         <img src={Plus} alt="" />
                                     </div>
                                     <div class="mb-3">
-                                        <label htmlFor="#dropdown_cm" class="form-label-cm form-label">МОДЕЛЬ</label>
+                                        <label htmlFor="#dropdown_cm" class="form-label-cm form-label">ТИП КОМПАНИИ</label>
                                         <div class="dropdown mb-4" id='dropdown_cm'>
                                             <button class="dropdown_chatmanage_long btn btn-secondary" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                                 Выберите
